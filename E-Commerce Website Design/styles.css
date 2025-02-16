@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+/* Make search input and button responsive */
+@media (max-width: 991px) {
+    .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-light {
+        width: 100%;
+    }
+}
+
+/* Product Cards */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Ensure buttons stretch properly */
+.btn-success {
+    width: 100%;
+    margin-top: auto;
+}
+
+
+
+/* Contact Form */
+#contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Location Map */
+iframe {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
+
+
+/* Make product cards flexible and properly aligned */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+/* Make sure images resize correctly */
+.card-img-top {
+    width: 100%;
+    height: 200px;  /* Set a fixed height */
+    object-fit: contain; /* Ensures images are properly displayed */
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Center text and align buttons */
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Adjust button placement */
+.btn-success {
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-img-top {
+        height: 120px;
+    }
+}
+
+
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
